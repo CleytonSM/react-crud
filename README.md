@@ -1,37 +1,19 @@
-# Projeto CRUD para a disciplina de Paradigmas de Programação II
+# Aplicação CRUD com React
+Este projeto tem como propósito a construção de uma aplicação web usando as tecnologias React, Vite, TypeScript e Json-Server, com o objetivo de implementar um sistema CRUD para gerenciar dados de uma entidade fictícia.
 
-Esse projeto teve como objetivo o desenvolvimento de uma aplicação web utilizando as tecnologias React, Vite, TypeScript e Json-Server para criar um sistema CRUD para gerenciar uma entidade fictícia. 
+Tecnologias Empregadas
+Vite: Utilizado para a criação e configuração ágil do projeto.
+React: Framework para o desenvolvimento da aplicação e a construção da interface de usuário.
+TypeScript: Implementado para garantir tipagem estática e facilitar o desenvolvimento do código.
+Tailwind CSS: Framework para estilização da interface de usuário de forma eficiente e responsiva.
+Json-Server: Ferramenta para simular uma API RESTful e gerenciar os dados da aplicação.
+Instruções para Executar a Aplicação
+Instale as dependências do projeto:
 
-## Tecnologias utilizadas
 
-Vite
-- Utilizada para a criação e configuração do projeto 
-
-React
-- Utilizada para o desenolvimento do projeto e a cosntrução da interface de usuário
-
-TypeScript
-- Utilzada para a tipagem estática e melhor desenvolvimento do código
-
-Tailwind CSS 
-- Utilizada para a estilziação da interface de usuário
-
-Json-Server
-- Utilizada para simular uma API RESTful que armazena os dados da aplicação
-
-## Como executar a aplicação
-
-- Instale as dependências do projeto
+Para rodar a aplicação
 ```
 npm install
-```
-
-- Inicialize a execução do json-server
-```
 npx json-server --watch db.json --port 3001
-```
-
-- Execute a aplicação
-```
 npm run dev
 ```
